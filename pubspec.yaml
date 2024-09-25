@@ -1,0 +1,32 @@
+name: itsoleraproj
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  # Other dependencies
+  flutter_local_notifications: ^12.0.0
+  timezone: ^0.9.4
+
+  # Updated intl_phone_field version
+  intl_phone_field: ^3.2.0
+  flutter_svg: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
